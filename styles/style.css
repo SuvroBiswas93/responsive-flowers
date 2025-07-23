@@ -21,6 +21,26 @@
     display: flex;
 }
 
+.primary-btn{
+    max-width: 270px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    background: rgb(233, 90, 8);
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 26px 50px;
+}
+
+.span-color{
+    color: #E95A08;
+}
+
 /* custom css */
 
 /* nav section style */
@@ -79,10 +99,6 @@
     font-size: 4rem;
     font-weight: 700;
 }
-.span-head{
-    color: #E95A08;
-}
-
 .hero-img{
     max-width: 570px;
     width: 100%;
@@ -94,3 +110,49 @@
     color: rgba(0, 0, 0, 0.5); 
 }
 
+/* plants section */
+
+.plants{
+    max-width: 1140px;
+    width: 100%;
+    margin: 120px auto;
+    border: 1px solid black;
+}
+.upper-portion{
+    text-align: center;
+}
+.upper-portion-heading{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.upper-portion-paragraph{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 16px 126px 40px 126px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.card{
+    flex-direction: column;
+}
+.card-within{
+    max-width: 270px;
+    width: 100%;
+    gap: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+.card-within span{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111111;
+}
+.card-within h3{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #111111;
+}
