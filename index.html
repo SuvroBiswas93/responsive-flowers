@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -10,7 +11,27 @@
     <title>Flower Website</title>
 </head>
 <body>
-    <header></header>
+    <header>
+        <section class="nav">
+           <nav class="nav-container flex">
+             <div class="nav-logo">
+                <img src="./assets/logo.png" alt="Flower Logo" class="flower-logo">
+            </div>
+            <div class="list flex">
+                <ul class="ul-list flex">
+                    <li><a class="home inter-font" href="">Home</a></li>
+                    <li><a class="shop inter-font" href="">Shop</a></li>
+                    <li><a class="about inter-font" href="">About us</a></li>
+                </ul>
+                <div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="inter-font">Cart ($56)</span>
+                </div>
+            </div>
+            </nav>
+        </section>
+               
+    </header>
     <main></main>
     <footer></footer>
 </body>
