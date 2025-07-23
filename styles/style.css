@@ -23,6 +23,7 @@
 
 /* custom css */
 
+/* nav section style */
 .nav{
     max-width: 1140px;
     width: 100%;
@@ -58,5 +59,38 @@
     font-size: 1rem;
     font-weight: 400;
     color: #8987A1;
+} 
+
+
+/* Hero Section style */
+.hero{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.hero-content{
+    align-self: flex-end;
+    max-width: 570px;
+    width: 100%;
+    text-align: left;
+}
+.hero-heading{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.span-head{
+    color: #E95A08;
+}
+
+.hero-img{
+    max-width: 570px;
+    width: 100%;
+}
+.hero-paragraph{
+    margin-top: 15px;
+    font-size: 1.25rem;
+    font-weight: 400; 
+    color: rgba(0, 0, 0, 0.5); 
 }
 
