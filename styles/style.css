@@ -229,72 +229,78 @@
 /* Latest Deal off section */
 
 .latest-deal-off {
-  display: grid;
-  grid-template-columns: 366px 1fr;
-  gap: 12px;
-  max-width: 1140px;
-  width: 100%;
-  margin: 0 auto;
-  margin-bottom: 120px;
+    display: grid;
+    grid-template-columns: 366px 1fr;
+    gap: 12px;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 120px;
 }
 
 .deal-left {
-  display: grid;
-  grid-template-rows: 206px 206px;
-  gap: 12px;
+    display: grid;
+    grid-template-rows: 206px 206px;
+    gap: 12px;
 }
 
 .deal-card {
-  position: relative;
-  border-radius: 10px;
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    height: 100%;
+    
 }
 .deal-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
 }
 
 .deal-content h3 {
-  font-size: 1.20rem;
-  font-weight: 700;
-  margin: 0 0 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.zabo h3{
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 
 .deal-card a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  width: fit-content;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    width: fit-content;
+}
+.zabo a{
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 
 /* Background images */
 .bloom {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
               url('../assets/deal-bloom.png');
-  background-size: cover;
-  background-position: center;
+    background-size: cover;
+    background-position: center;
 }
 
 .ana {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
               url('../assets/deal-ana.png');
-  background-size: cover;
-  background-position: center;
+    background-size: cover;
+    background-position: center;
 }
 
 .zabo {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
               url('../assets/deal-zabo.png');
-  background-size: cover;
-  background-position: center;
-  height: 423.13px;
+    background-size: cover;
+    background-position: center;
+    height: 423.13px;
 }
 
 
