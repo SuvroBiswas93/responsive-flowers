@@ -126,6 +126,7 @@
     max-width: 1140px;
     width: 100%;
     margin: 120px auto;
+   
 }
 .upper-portion{
     text-align: center;
@@ -144,9 +145,12 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
+    
 }
 .card{
     flex-direction: column;
+    
+    /* width: 100%; */
 }
 .card-within{
     max-width: 270px;
@@ -164,6 +168,56 @@
     font-size: 1.25rem;
     font-weight: 500;
     color: #111111;
+}
+
+/* plants lover section */
+
+.plants-lover{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    gap: 60px;
+
+}
+.plants-lover-img{
+    max-width: 540px;
+    width: 100%;
+}
+
+.img-parent{
+    position: relative;
+}
+.img-child{
+    position: absolute;
+    top: -21%;
+    right: -21%;
+}
+.badge-img{
+    max-width: 286px;
+    width: 100%;
+    max-height: 286px;
+    height: 100%;
+}
+.plants-lover-content{
+    max-width: 540px;
+    width: 100%;
+    margin: 38px 0;
+}
+.plants-lover-heading{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 38px;
+    margin-bottom: 20px;
+}
+.list{
+    flex-direction: column;
+    gap: 20px;
+}
+.list li p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 /* Responsive for Mobile */
@@ -232,74 +286,58 @@
    
     .card-container{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
         gap: 20px;
         margin: 0 16px;
     }
     .primary-btn{
-        max-width: 170px;
+        max-width: 180px;
         width:100%;
         white-space: nowrap;
     }
     .card-img img{
-        max-width: 170px;
+        max-width: 180px;
         width: 100%;
     }
     .card-within{
-        max-width: 170px;
+        max-width: 180px;
         width: 100%;
         gap: 20px;
     
     }
+    .plants-lover{
+        flex-direction: column;
+        margin: 0;
+        padding: 0 16px;
+        gap: 5px;
+    }
+    .badge-img{
+        display: none;
+    }
+    .img-parent{
+        width: 100%;
+        /* margin: 0 16px; */
+       
+    }
+    .plants-lover-image{
+      width: 100%;
+       /* margin: 0 16px; */
+    }
+     .plants-lover-heading{
+        font-size: 1.5rem;
+        white-space: nowrap;
+    }
+    .list li p{
+        font-size: 0.8rem;
+        line-height: 17px;
+    }
+    .plants-lover-content{
+        margin: 0 16px;
+        
+    }
+   
 }
 
-
-/* plants lover section */
-
-.plants-lover{
-    max-width: 1140px;
-    width: 100%;
-    margin: 0 auto;
-    gap: 60px;
-}
-.plants-lover-img{
-    max-width: 540px;
-    width: 100%;
-}
-.img-parent{
-    position: relative;
-}
-.img-child{
-    position: absolute;
-    top: -21%;
-    right: -21%;
-}
-.badge-img{
-    max-width: 286px;
-    width: 100%;
-    max-height: 286px;
-    height: 100%;
-}
-.plants-lover-content{
-    max-width: 540px;
-    width: 100%;
-    margin: 38px 0;
-}
-.plants-lover-heading{
-    font-size: 4rem;
-    font-weight: 700;
-    margin-top: 38px;
-    margin-bottom: 20px;
-}
-.list{
-    flex-direction: column;
-    gap: 20px;
-}
-.list li p{
-    font-size: 1.25rem;
-    font-weight: 400;
-    line-height: 27px;
-}
 
 /* Latest Deal section */
 
