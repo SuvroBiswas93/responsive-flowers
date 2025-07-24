@@ -393,4 +393,5 @@
 .footer-right-side{
     justify-content: center;
     gap: 20px;
+    cursor: pointer;
 }
