@@ -220,6 +220,199 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
+
+/* Latest Deal section */
+
+.latest-deal{
+    max-width: 1140px;
+    width: 100%;
+    margin: 120px auto;
+}   
+.latest-deal-text{
+    text-align: center;
+}
+.latest-deal-heading{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.latest-deal-paragraph{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* Latest Deal off section */
+
+.latest-deal-off {
+    display: grid;
+    grid-template-columns: 366px 1fr;
+    gap: 12px;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.deal-left {
+    display: grid;
+    grid-template-rows: 206px 206px;
+    gap: 12px;
+}
+
+.deal-card {
+    position: relative;
+    border-radius: 10px;
+    height: 100%;
+    
+}
+.deal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.deal-content h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.zabo h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.deal-card a {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    width: fit-content;
+}
+.zabo a{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* Background images */
+.bloom {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+              url('../assets/deal-bloom.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.ana {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+              url('../assets/deal-ana.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.zabo {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+              url('../assets/deal-zabo.png');
+    background-size: cover;
+    background-position: center;
+    height: 423.13px;
+}
+
+
+/* join section */
+
+
+.join{
+    max-width: 1440px;
+    width: 100%;
+    height: 533px;
+    background: linear-gradient(rgba(7, 51, 79, 0.4), rgba(7, 51, 79, 0.4)),url('../assets/news-letter-bg.png');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.email-input{
+    max-width: 644px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px 20px;
+    
+}
+.join-btn{
+    max-width: 186px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 50px;
+    border: none;
+}
+.join-heading{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 23px;
+    color:white;
+}
+  
+/* Footer section */
+
+.footer{
+    max-width: 1440px;
+    width: 100%;
+
+}
+
+.footer-content{
+    max-width: 1140px;
+    width: 100%;
+    
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin:50px auto;
+    gap: 110px;
+   
+}
+.footer-left-side p{
+    margin-top: 16px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer-list{
+    flex-direction: column;
+    gap: 25px;
+    list-style: none;
+    width: 140px;
+    
+}
+.footer-list a{
+    text-decoration: none;
+    text-align: left;
+    color: rgb(107, 114, 128);
+}
+.footer-right-side{
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+
+
 /* Responsive for Mobile */
 
 @media screen and (max-width:576px) {
@@ -333,200 +526,84 @@
     }
     .plants-lover-content{
         margin: 0 16px;
+
         
     }
-   
-}
+    .latest-deal{
+       background-color: tomato;
+    }
+    .latest-deal-off{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 16px;
+        gap: 10px;
+        background-color: green;
+    }
+    .deal-left {
+        display: contents;
+    }
+    .deal-content {
+        padding: 0 16px; 
+        box-sizing: border-box;
+        width: 100%; 
+        
+    }
 
+    .deal-card{
+        max-width: 361px;
+        width: 100%;
+        height: 177px;
+        border-radius: 10px;
+        
+    }
 
-/* Latest Deal section */
+    .deal-content h3{
+        font-size: 1.25rem;
+    }
 
-.latest-deal{
-    max-width: 1140px;
-    width: 100%;
-    margin: 120px auto;
-}   
-.latest-deal-text{
-    text-align: center;
-}
-.latest-deal-heading{
-    font-size: 4rem;
-    font-weight: 700;
-}
-.latest-deal-paragraph{
-    font-size: 1.25rem;
-    font-weight: 400;
-    margin-top: 16px;
-    color: rgba(0, 0, 0, 0.5);
-}
+    .deal-card a{
+        font-size: 1rem;
+    }
+    .zabo{
+        height: 177px;
+    }
 
-/* Latest Deal off section */
+    .zabo h3{
+        font-size: 1.25rem; 
+    }
 
-.latest-deal-off {
-    display: grid;
-    grid-template-columns: 366px 1fr;
-    gap: 12px;
-    max-width: 1140px;
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 120px;
-}
+    .zabo a{
+        font-size: 1rem;
+        font-weight: 600;
+    }
 
-.deal-left {
-    display: grid;
-    grid-template-rows: 206px 206px;
-    gap: 12px;
-}
+    .bloom,.ana,.zabo{
+        margin: 0 16px;
+    }
+    .join{
+        margin-top: 44px;
+        max-width: 393px;
+        width: 100%;
+        height: 275px;
+    }
 
-.deal-card {
-    position: relative;
-    border-radius: 10px;
-    height: 100%;
-    
-}
-.deal-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
-}
-
-.deal-content h3 {
-    font-size: 1.2rem;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-.zabo h3{
-    font-size: 2.5rem;
-    font-weight: 700;
-}
-
-.deal-card a {
-    color: white;
-    font-size: 1rem;
-    font-weight: 600;
-    width: fit-content;
-}
-.zabo a{
-    font-weight: 700;
-    font-size: 1.5rem;
-}
-
-/* Background images */
-.bloom {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-              url('../assets/deal-bloom.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.ana {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-              url('../assets/deal-ana.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.zabo {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-              url('../assets/deal-zabo.png');
-    background-size: cover;
-    background-position: center;
-    height: 423.13px;
-}
-
-
-/* join section */
-
-
-.join{
-    max-width: 1440px;
-    width: 100%;
-    height: 533px;
-   
-    background: linear-gradient(rgba(7, 51, 79, 0.4), rgba(7, 51, 79, 0.4)),url('../assets/news-letter-bg.png');
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-    align-items: center;
-    
-}
-.content form{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-   
-}
-.email-input{
-    width: 644px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-  
-    padding: 8px 20px 8px 20px;
-    
-}
-.join-btn{
-    width: 186px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 26px 50px 26px 50px;
-    border: none;
-}
-.join-heading{
-    text-align: center;
-    font-size: 4rem;
-    font-weight: 700;
-    margin-bottom: 23px;
-    color:white;
-}
-  
-/* Footer section */
-
-.footer{
-    max-width: 1440px;
-    width: 100%;
-
-}
-
-.footer-content{
-    max-width: 1140px;
-    width: 100%;
-    
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    margin:50px auto;
-    gap: 110px;
-   
-}
-.footer-left-side p{
-    margin-top: 16px;
-    font-size: 1.25rem;
-    font-weight: 400;
-    color: rgba(0, 0, 0, 0.5);
-}
-.footer-list{
-    flex-direction: column;
-    gap: 25px;
-    list-style: none;
-    width: 140px;
-    
-}
-.footer-list a{
-    text-decoration: none;
-    text-align: left;
-    color: rgb(107, 114, 128);
-}
-.footer-right-side{
-    justify-content: center;
-    gap: 20px;
-    cursor: pointer;
+    .join-heading{
+        font-size: 1.2rem;
+        font-weight: 700;
+        max-width: 235px;
+        width: 100%;
+        text-align: center;
+        margin: 0 70px;
+        margin-bottom: 23px
+    }
+    .email-input{
+        margin-left: 36px;
+    }
+   .join-btn{
+        max-width: 103px;
+        width: 100%;
+        margin-right: 36px;
+   }
 }
 
 
