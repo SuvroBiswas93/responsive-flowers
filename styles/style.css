@@ -370,7 +370,7 @@
   
 /* Footer section */
 
-.footer{
+footer{
     max-width: 1440px;
     width: 100%;
 
@@ -526,18 +526,13 @@
     }
     .plants-lover-content{
         margin: 0 16px;
-
-        
-    }
-    .latest-deal{
-       background-color: tomato;
     }
     .latest-deal-off{
         display: grid;
         grid-template-columns: 1fr;
-        margin: 0 16px;
+        /* margin: 0 16px; */
         gap: 10px;
-        background-color: green;
+       
     }
     .deal-left {
         display: contents;
@@ -603,11 +598,11 @@
         width: 100%;
         margin-right: 36px;
    }
-   .footer{
+   footer{
         margin-top: 30px;
         width: 100%;
-        background-color: aqua;
    }
+   
    .footer-content{
         flex-direction: column;
         gap: 30px;
