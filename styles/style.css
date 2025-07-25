@@ -146,7 +146,6 @@
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
     width: 1170px;
-    width: 100%;
     margin: 0 auto;
     
 }
@@ -539,6 +538,9 @@ footer{
         gap: 10px;
         width: 400px;
        
+    }
+    .latest-deal-heading{
+        font-size: 2rem;
     }
     .deal-left {
         display: contents;
