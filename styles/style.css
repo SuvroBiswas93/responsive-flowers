@@ -611,7 +611,7 @@ footer{
    
    .footer-content{
         flex-direction: column;
-        gap: 30px;
+        gap: 40px;
         padding: 50px 20px 50px 20px;
    }
    .footer-left-side p{
