@@ -604,6 +604,19 @@
         width: 100%;
         margin-right: 36px;
    }
+   .footer{
+    margin-top: 30px;
+   }
+   .footer-content{
+        flex-direction: column;
+        gap: 30px;
+        padding: 50px 160px 50px 20px;
+   }
+   .footer-left-side p{
+        max-width: 359px;
+        width: 100%;
+        height: 48px;
+   }
 }
 
 
