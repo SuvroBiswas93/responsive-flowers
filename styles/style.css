@@ -415,7 +415,7 @@
 
 /* Responsive for Mobile */
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:628px) {
     .nav{
         margin: 0;
     }
