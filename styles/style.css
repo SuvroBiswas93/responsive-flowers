@@ -612,7 +612,7 @@ footer{
    .footer-content{
         flex-direction: column;
         gap: 30px;
-        padding: 50px 160px 50px 20px;
+        padding: 50px 20px 50px 20px;
    }
    .footer-left-side p{
         max-width: 359px;
